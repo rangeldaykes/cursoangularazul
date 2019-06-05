@@ -1,0 +1,14 @@
+
+/home/usulubu/projetos/cursoangularazul
+
+
+deixar compilador typescript ativo
+tsc -w 
+
+rodar app js
+node dist/classesinterfaces.js 
+
+ng install json-server
+
+json-server db.json
+
