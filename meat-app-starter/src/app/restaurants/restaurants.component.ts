@@ -17,7 +17,7 @@ export class RestaurantsComponent implements OnInit {
     console.log("vai buscar");
 
     this.restaurantsService.restaurants()
-      .subscribe(restaurants => this.restaurants = restaurants)
+      .subscribe(prest => this.restaurants = prest)
 
     console.log("buscou");
   }
